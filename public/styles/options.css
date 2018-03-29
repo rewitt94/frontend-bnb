@@ -1,0 +1,20 @@
+#options_grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width:100%;
+}
+
+#options_grid > div {
+  border-style:solid;
+  border-width:thin;
+  border-color:#49274A;
+  text-align:center;
+  padding-top:20px;
+  height:40px;
+}
+
+#options_grid > div:hover {
+  cursor:pointer;
+  opacity:0.2;
+}

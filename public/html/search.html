@@ -1,0 +1,23 @@
+<link rel="stylesheet" type="text/css" href="./search.css">
+<link rel="stylesheet" type="text/css" href="./options.css">
+<script src="./options.js"></script>
+<script src="./search.js" defer></script>
+<script src="./showFilters.js"></script>
+
+<div id="options_grid">
+  <div onclick="goTo('search')" style="background:#F4DECB">Search</div>
+  <div onclick="goTo('')" style="background:#F8EEE7">Home</div>
+  <div onclick="goTo('list')" style="background:#F7ECD2">List</div>
+</div>
+
+<div id="accomodation_page">
+  <div id="filters">
+    <h1>search filters in here</h1>
+  </div>
+  <div id="show_filters" onclick="showFilters()">
+    <h1 id="scroll_header">+</h1>
+  </div>
+  <div id="listings">
+  </div>
+
+</div>

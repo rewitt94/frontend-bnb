@@ -1,0 +1,41 @@
+<link rel="stylesheet" type="text/css" href="./list.css">
+<link rel="stylesheet" type="text/css" href="./options.css">
+<script src="options.js"></script>
+
+<div id="options_grid">
+  <div onclick="goTo('search')" style="background:#F4DECB">Search</div>
+  <div onclick="goTo('')" style="background:#F8EEE7">Home</div>
+  <div onclick="goTo('request')" style="background:#F7ECD2">List</div>
+</div>
+
+<img class="background_image" src="https://image.ibb.co/imOEc7/week6_2.jpg">
+<img class="background_image" src="https://image.ibb.co/gGBBPn/week6_3.jpg">
+<img class="background_image" src="https://image.ibb.co/c8QSx7/week6_4.jpg">
+
+<div id="list_form">
+  <div id="list_title">
+    <h1>Add a listing</h1>
+    <hr></hr>
+  </div>
+  <form action="/list" method="post">
+    <h1>Address</h1>
+    <input type="text" placeholder="house name" name="house">
+    <br>
+    <input type="text" placeholder="street name" name="street">
+    <br>
+    <input type="text" placeholder="city" name="city">
+    <hr></hr>
+    <h1>Rooms</h1>
+    <input type="text" placeholder="bedrooms" name="house">
+    <br>
+    <input type="text" placeholder="bathrooms" name="street">
+    <hr></hr>
+    <h1>£££</h1>
+    <input type="text" placeholder="price per night" name="price">
+    <hr></hr>
+    <h1>Description</h1>
+    <textarea rows="5" cols="90" placeholder="describe your listing" name="description"></textarea>
+    <br></br>
+    <button id="add" type="submit">Add Listing</button>
+  </form>
+</div>

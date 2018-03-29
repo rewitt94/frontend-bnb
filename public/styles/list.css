@@ -1,0 +1,45 @@
+body {
+  font-family:courier;
+  margin:0px;
+  color: #49274A;
+  overflow-y:hidden;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.background_image {
+  position:relative;
+  opacity:0.3;
+  margin:0px;
+  z-index:-1;
+  width:100%;
+}
+
+
+#list_title {
+  position:relative;
+  margin-bottom: 100px;
+  align-items:center;
+}
+
+#list_form {
+  font-size:28px;
+  position:absolute;
+  align-items:center;
+  left:30%;
+  width:40%;
+  top: 12%;
+  height:80%;
+  overflow-y:auto;
+}
+
+#add {
+  background-color: #49274A;
+  font-family: arial;
+  font-size: 20px;
+  color: white;
+  width: 150px;
+  height: 70px;
+}

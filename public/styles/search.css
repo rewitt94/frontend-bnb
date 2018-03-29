@@ -1,0 +1,85 @@
+body {
+  font-family:courier;
+  margin:0px;
+  background-color:#F8EEE7;
+}
+
+h1 {
+  margin: 0px;
+  padding-bottom:20px;
+}
+
+#accomodation_page {
+  position:absolute;
+  width:100%;
+  top: -140px;
+}
+
+#show_filters {
+  background-color: #49274A;
+  padding-top:15px;
+  color:#F8EEE7;
+  width:98%;
+  padding-left:2%;
+}
+
+#show_filters:hover {
+  cursor:pointer;
+  color:red;
+}
+
+#filters {
+  min-height: 200px;
+  background-color: #94618E;
+}
+
+.accomodation {
+  position:relative;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top:100px;
+  width:95%;
+  left:2.5%;
+  right:2.5%;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color:#F4DECB;
+}
+
+.accomodation > div {
+  align-items:center;
+  text-align:center;
+}
+
+.accomodation_image {
+  width:80%;
+}
+
+.details_button {
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color:#49274A;
+}
+
+#options_grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width:100%;
+  z-index:1;
+}
+
+#options_grid > div {
+  border-style:solid;
+  border-width:thin;
+  border-color:#49274A;
+  text-align:center;
+  padding-top:20px;
+  height:40px;
+}
+
+#options_grid > div:hover {
+  cursor:pointer;
+  opacity:0.2;
+}

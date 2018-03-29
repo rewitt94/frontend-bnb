@@ -1,0 +1,28 @@
+body {
+  background-color:#94618E;
+  font-family:courier;
+  margin:0px;
+  color: #49274A;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+button {
+  width:200px;
+}
+
+.background_image {
+  position:relative;
+  margin:0px;
+  z-index:-1;
+  width:100%;
+}
+
+#home_page_title {
+  position:relative;
+  padding-top: 5px;
+  padding-left:30%;
+  padding-right:35%;
+  padding-bottom: 5px;
+  text-align:center;
+}
