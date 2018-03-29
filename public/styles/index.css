@@ -1,14 +1,9 @@
 body {
   background-color:#94618E;
-  font-family:courier;
   margin:0px;
   color: #49274A;
   overflow-y: hidden;
   overflow-x: hidden;
-}
-
-button {
-  width:200px;
 }
 
 .background_image {

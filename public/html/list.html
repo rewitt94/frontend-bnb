@@ -1,5 +1,6 @@
 <link rel="stylesheet" type="text/css" href="./list.css">
 <link rel="stylesheet" type="text/css" href="./options.css">
+<link rel="stylesheet" type="text/css" href="./fonts.css">
 <script src="options.js"></script>
 
 <div id="options_grid">
@@ -18,24 +19,27 @@
     <hr></hr>
   </div>
   <form action="/list" method="post">
-    <h1>Address</h1>
+    <h2>Address</h2>
     <input type="text" placeholder="house name" name="house">
     <br>
     <input type="text" placeholder="street name" name="street">
     <br>
     <input type="text" placeholder="city" name="city">
     <hr></hr>
-    <h1>Rooms</h1>
+    <h2>Rooms</h2>
     <input type="text" placeholder="bedrooms" name="house">
     <br>
     <input type="text" placeholder="bathrooms" name="street">
     <hr></hr>
-    <h1>£££</h1>
+    <h2>£££</h2>
     <input type="text" placeholder="price per night" name="price">
     <hr></hr>
-    <h1>Description</h1>
+    <h2>Image</h2>
+    <input type="text" placeholder="image url" name="image">
+    <hr></hr>
+    <h2>Description</h2>
     <textarea rows="5" cols="90" placeholder="describe your listing" name="description"></textarea>
     <br></br>
-    <button id="add" type="submit">Add Listing</button>
+    <button id="add" type="submit">ADD LISTING</button>
   </form>
 </div>
